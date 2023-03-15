@@ -57,16 +57,21 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
+    <Folder Include="Stored Procedure" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Users.sql" />
     <Build Include="Tables\Posts.sql" />
+    <Build Include="Stored Procedure\spUsers_Authenticate.sql" />
+    <Build Include="Stored Procedure\spUsers_Register.sql" />
+    <Build Include="Stored Procedure\spPosts_Insert.sql" />
+    <Build Include="Stored Procedure\spPosts_List.sql" />
+    <Build Include="Stored Procedure\spPosts_Detail.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="AngelesBlogDB.refactorlog" />
   </ItemGroup>
   <ItemGroup>
     <None Include="AngelesBlogDB.publish.xml" />
-    <None Include="AngelesBlogDB_1.publish.xml" />
   </ItemGroup>
 </Project>
